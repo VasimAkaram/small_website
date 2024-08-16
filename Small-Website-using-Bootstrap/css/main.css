@@ -1,0 +1,429 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Navbar*/
+.navbar .navbar-brand{
+    color: #fed136 !important;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar .navbar-brand:hover{
+    color: #fed136;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #fed136;
+}
+
+@media (max-width: 991px){
+    .navbar{
+        background-color: #212529 !important;
+        }
+    .navbar .navbar-toggler{
+        background-color:  #fed136 !important;
+        color: #FFF;
+        font-size: 16px;
+        }
+}
+    
+
+/*Main Head*/
+.main-head{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.main-head .caption h2{
+    font-style: italic!important;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.main-head .caption h1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-head .caption a{
+    background-color: #fed136 !important;
+    border:4px solid #c69500;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Advisors*/
+.advisors .container{
+    background-color: #FFF;
+}
+.advisors h3{
+    color: #002147;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.advisors p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d!important;
+    font-family: 'Poppins', sans-serif;
+}
+.advisor{
+    position: relative;
+    overflow: hidden;
+}
+
+.advisor .advisor-info{
+    background-color: #FFF;
+    position: absolute;
+    width: 90%;
+    bottom: 5%;
+    transition: bottom 1s ease 0.22s;
+    
+}
+.advisor:hover  .advisor-info{
+    bottom: -100%;
+    
+}
+.advisor .advisor-info h4{
+    color: #002147;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "segoe ui light";
+}
+.advisor .advisor-info span{
+    color: #ffb606;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+
+
+.advisor .advisor-content {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 33, 71, 0.7);
+    bottom: 100%;
+    transition: bottom 1s ease 0.20s;
+}
+.advisor:hover .advisor-content{
+    bottom: 5%;
+}
+.advisor .advisor-content h4{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "segoe ui light";
+}
+.advisor .advisor-content p{
+    color: #FFF !important;
+    font-family: "segoe ui light";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.advisor .advisor-content a{
+    color: #ffb606;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+
+/*Categories*/
+.categories{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.categories .container h4{
+    font-size: 30px;
+    color: #002147;
+    font-weight: 700;
+}
+
+.categories .container p{
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.categories .container .category-1{
+    position: relative;
+}
+.categories .container .category-1 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-1 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #337AB7;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-1:hover .category-overlay{
+    background-color: rgba(51,122,180,0.58);
+}
+
+
+
+.categories .container .category-2{
+    position: relative;
+}
+.categories .container .category-2 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-2 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1ec1d9;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-2:hover .category-overlay{
+    background-color: rgba(30,193,217,0.51);
+}
+
+
+
+.categories .container .category-3{
+    position: relative;
+}
+.categories .container .category-3 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-3 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #10c45c;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-3:hover .category-overlay{
+    background-color: rgba(16,196,92,0.64);
+}
+
+
+
+.categories .container .category-4{
+    position: relative;
+}
+.categories .container .category-4 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-4 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #47c58e;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-4:hover .category-overlay{
+    background-color: rgba(71,197,142,0.6);
+}
+
+
+
+.categories .container .category-5{
+    position: relative;
+}
+.categories .container .category-5 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-5 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fabd44;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-5:hover .category-overlay{
+    background-color: rgba(249,189,68,0.7);
+}
+
+
+
+
+.categories .container .category-6{
+    position: relative;
+}
+.categories .container .category-6 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-6 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e948ae;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-6:hover .category-overlay{
+    background-color: rgba(233,72,174,0.55);
+}
+
+
+
+.categories .container .category-7{
+    position: relative;
+}
+.categories .container .category-7 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-7 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e84b3a;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-7:hover .category-overlay{
+    background-color: rgba(51,122,180,0.58);
+}
+
+
+
+.categories .container .category-8{
+    position: relative;
+}
+.categories .container .category-8 img{
+    background-size: cover;
+    border-radius: 5px;
+}
+.category-8 .category-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #92278f;
+    border-radius: 5px;
+    transition: all 1s;
+    
+}
+
+.category-8:hover .category-overlay{
+    background-color: rgba(51,122,180,0.58);
+}
+
+
+
+/*portofolio*/
+.portofolio{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F9F9;
+}
+
+.portofolio .portofolio-content{
+    background-color: #FFF;
+}
+
+.portofolio .portofolio-content h4{
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: #212529;
+}
+
+.portofolio .portofolio-content span{
+    color: #6c757d!important;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.portofolio .portofolio-img{
+    position: relative;
+}
+
+
+.portofolio-img .portofolio-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254,209,54,0.9);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.portofolio-overlay:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
